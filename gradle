@@ -1,0 +1,7 @@
+0、创建项目
+mkdir projectName
+cd projectName/
+gradle init
+gedit gradle/wrapper/gradle-wrapper.properties
+change "distributionUrl=https\://services.gradle.org/distributions/gradle-3.2-bin.zip" to
+distributionUrl=http\://127.0.0.1:8080/app/gradle-3.2-bin.zip 
